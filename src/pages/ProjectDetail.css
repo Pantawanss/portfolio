@@ -1,0 +1,72 @@
+/* ── IMAGE SLIDER (Detail Page) ── */
+.detail__slider {
+  position: relative;
+  width: 100%;
+  height: 500px;    /* ← เปลี่ยนตรงนี้ */
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  margin-bottom: 40px;
+  background: var(--bg2);
+}
+
+.detail__slider-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;   /* ← เปลี่ยนจาก cover เป็น contain */
+  display: block;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.45);
+  color: #fff;
+  border: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s;
+  z-index: 2;
+}
+
+.slider-btn:hover { background: rgba(0,0,0,0.7); }
+.slider-btn--left { left: 14px; }
+.slider-btn--right { right: 14px; }
+
+.slider-counter {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: rgba(0,0,0,0.45);
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.slider-dots {
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+}
+
+.slider-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.slider-dot.active { background: #fff; }
