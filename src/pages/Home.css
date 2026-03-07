@@ -224,11 +224,16 @@
 }
 
 @media (max-width: 768px) {
-  .hero .container { grid-template-columns: 1fr; }
-  .hero__avatar { display: none; }
-  .projects-grid { grid-template-columns: 1fr; }
-  .cta-box { flex-direction: column; align-items: flex-start; }
-  .section-header { flex-direction: column; align-items: flex-start; }
+  .hero .container { 
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .hero__avatar { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
 
 @media (max-width: 900px) {
