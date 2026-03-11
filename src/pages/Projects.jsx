@@ -17,7 +17,7 @@ export default function Projects() {
       <div className="container">
 
         <p className="section-label fade-up fade-up-1">ผลงาน</p>
-        <h1 className="projects__heading fade-up fade-up-2">สิ่งที่ผมสร้างขึ้นมา</h1>
+        <h1 className="projects__heading fade-up fade-up-2">ผลงานในชั้นเรียน</h1>
         <p className="projects__sub fade-up fade-up-3">
           ผลงานทั้งหมดจากรายวิชา และโปรเจกต์ส่วนตัวที่ทำเพื่อฝึกทักษะ
         </p>

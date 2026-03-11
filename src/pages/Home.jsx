@@ -119,7 +119,7 @@ export default function Home() {
           <div className="section-header">
             <div>
               <p className="section-label">ผลงานเด่น</p>
-              <h2 className="section-title">สิ่งที่ผมสร้างขึ้นมา</h2>
+              <h2 className="section-title">ผลงานในชั้นเรียน</h2>
             </div>
             <Link to="/projects" className="btn btn-outline">ดูทั้งหมด →</Link>
           </div>
