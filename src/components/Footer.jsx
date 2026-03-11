@@ -13,7 +13,6 @@ export default function Footer() {
           </div>
           <div className="footer__links">
             <Link to="/projects">ผลงาน</Link>
-            <Link to="/blog">บทความ</Link>
             <Link to="/contact">ติดต่อ</Link>
             <Link to="/resume">Resume</Link>
           </div>
