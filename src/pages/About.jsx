@@ -17,7 +17,7 @@ export default function About() {
       <div className="container">
 
         <p className="section-label fade-up fade-up-1">เกี่ยวกับฉัน</p>
-        <h1 className="about__heading fade-up fade-up-2">สวัสดีครับ</h1>
+        <h1 className="about__heading fade-up fade-up-2">มาทำความรู้จักกันเถอะ!</h1>
 
         <div className="about__grid">
           {/* LEFT */}
@@ -58,7 +58,6 @@ export default function About() {
             <div className="about__bio-box">
               <p>{profile.bio}</p>
               <p style={{ marginTop: "16px", color: "var(--muted)", fontSize: "15px" }}>
-                ปัจจุบันกำลังศึกษาอยู่ที่ {profile.education[0].school} สาขา {profile.education[0].field}
                 มีความสนใจในด้าน Full-Stack Development และ UI/UX Design
                 และกำลังมองหาโอกาสใหม่ๆ ทั้งงาน Freelance และ Internship ครับ
               </p>

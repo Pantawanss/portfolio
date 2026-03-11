@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { projects } from "../data/data";
 import "./Projects.css";
 
-const filters = ["ทั้งหมด", "Academic", "Personal"];
+const filters = ["ทั้งหมด", "Class Workshops", "Activities"];
 
 export default function Projects() {
   const [active, setActive] = useState("ทั้งหมด");
@@ -17,7 +17,7 @@ export default function Projects() {
       <div className="container">
 
         <p className="section-label fade-up fade-up-1">ผลงาน</p>
-        <h1 className="projects__heading fade-up fade-up-2">ผลงานในชั้นเรียน</h1>
+        <h1 className="projects__heading fade-up fade-up-2">ผลงานในชั้นเรียนและกิจกรรมที่เข้าร่วม</h1>
         <p className="projects__sub fade-up fade-up-3">
           ผลงานทั้งหมดจากรายวิชา และโปรเจกต์ส่วนตัวที่ทำเพื่อฝึกทักษะ
         </p>

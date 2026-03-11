@@ -96,6 +96,18 @@ export const projects = [
     demo: null,
       image: ["/Projects/UxUiDesign/1.png", "/Projects/UxUiDesign/2.png", "/Projects/UxUiDesign/3.png", "/Projects/UxUiDesign/4.png"],
   },
+  {
+  id: "03",
+  title: "การเข้าร่วมการแลกเปลี่ยนทางการศึกษาระหว่างมหาวิทยาลัย",
+  category: "Activities",
+  description: "เข้าร่วมโครงการแลกเปลี่ยนนักศึกษากับมหาวิทยาลัย ITB STIKOM BALI ประเทศอินโดนีเซีย",
+  role: "นักศึกษาและเปลี่ยน",
+  type: "Activities",
+  github: null,
+  demo: null,
+  image: ["/Projects/Activities/Bali/One Page Bali.jpg"],
+  year: "2568",
+},
 ];
 
 export const blogs = [
