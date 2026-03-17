@@ -101,6 +101,7 @@ export const projects = [
   title: "การเข้าร่วมการแลกเปลี่ยนทางการศึกษาระหว่างมหาวิทยาลัย",
   category: "Activities",
   description: "เข้าร่วมโครงการแลกเปลี่ยนนักศึกษากับมหาวิทยาลัย ITB STIKOM BALI ประเทศอินโดนีเซีย",
+  tech: [],
   role: "นักศึกษาและเปลี่ยน",
   type: "Activities",
   github: null,
