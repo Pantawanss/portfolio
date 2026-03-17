@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import { profile, projects, skills } from "../data/data";
 import "./Home.css";
 
-// Slideshow component สำหรับ card หน้า Home
 function CardSlideshow({ images, title }) {
   const [current, setCurrent] = useState(0);
 
@@ -64,15 +63,12 @@ export default function Home() {
                 ว่าง
               </div>
             )}
-
             <h1 className="hero__name fade-up fade-up-2">
               สวัสดีครับ I'm<br />
               <span>{profile.name}</span>
             </h1>
-
             <p className="hero__title fade-up fade-up-3">{profile.title}</p>
             <p className="hero__bio fade-up fade-up-3">{profile.bio}</p>
-
             <div className="hero__actions fade-up fade-up-4">
               <Link to="/projects" className="btn btn-primary">ดูผลงานทั้งหมด →</Link>
               <Link to="/about" className="btn btn-outline">รู้จักผม</Link>
@@ -81,16 +77,13 @@ export default function Home() {
 
           <div className="hero__avatar fade-up fade-up-2">
             <div className="avatar-placeholder">
-              <div className="avatar-placeholder">
-  <img src="/Avatar/avatar.jpg" alt="avatar" style={{ 
-    position: "absolute",
-    top: 0, left: 0,
-    width: "100%", 
-    height: "100%", 
-    objectFit: "cover"
-  }} />
-</div>
-              <span>{profile.nickname.charAt(0)}</span>
+              <img src="/Avatar/avatar.jpg" alt="avatar" style={{
+                position: "absolute",
+                top: 0, left: 0,
+                width: "100%",
+                height: "100%",
+                objectFit: "cover"
+              }} />
             </div>
             <div className="hero__info-card">
               <div className="info-row"><span>📍</span> {profile.location}</div>
@@ -123,7 +116,6 @@ export default function Home() {
             </div>
             <Link to="/projects" className="btn btn-outline">ดูทั้งหมด →</Link>
           </div>
-
           <div className="projects-grid">
             {featuredProjects.map((proj, i) => (
               <Link
@@ -157,7 +149,7 @@ export default function Home() {
           <div className="cta-box">
             <div>
               <h2>สนใจทำงานร่วมกัน?</h2>
-              <p> Freelance/Full-time </p>
+              <p>Freelance/Full-time</p>
             </div>
             <div className="cta-box__actions">
               <Link to="/contact" className="btn btn-primary">ติดต่อผม →</Link>

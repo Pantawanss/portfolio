@@ -76,7 +76,7 @@ export const projects = [
     longDescription: "โปรเจกต์นี้พัฒนาขึ้นเพื่อศึกษาการทำงานของระบบ IoT โดยใช้บอร์ด Arduino ร่วมกับเซ็นเซอร์ต่างๆ เขียนโปรแกรมด้วยภาษา C/C++ เพื่อควบคุมและรับส่งข้อมูลจากอุปกรณ์ IoT",
     tech: ["C", "C++", "Arduino IDE"],
     role: "Coding (ทำงานเป็นกลุ่ม)",
-    type: "Academic",
+    type: "Class Workshops",
     github: null,
     demo: null,
     // ⭐ วางรูปไว้ที่ public/projects/iot/ แล้วใส่ชื่อไฟล์ตรงนี้
@@ -91,7 +91,7 @@ export const projects = [
     longDescription: "วิเคราะห์และออกแบบระบบสารสนเทศโดยใช้หลักการ UX/UI Design สร้าง Prototype ด้วย Figma และทดสอบกับผู้ใช้งานจริงเพื่อปรับปรุงระบบให้ดียิ่งขึ้น",
     tech: ["Figma", "draw.io", "UX/UI Design"],
     role: "UX/UI Designer & System Analyst",
-    type: "Academic",
+    type: "Class Workshops",
     github: null,
     demo: null,
       image: ["/Projects/UxUiDesign/1.png", "/Projects/UxUiDesign/2.png", "/Projects/UxUiDesign/3.png", "/Projects/UxUiDesign/4.png"],
